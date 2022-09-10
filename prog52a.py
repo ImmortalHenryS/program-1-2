@@ -8,4 +8,5 @@ area= length * width
 perim = 2 * length + 2 * width
 
 print("The area is",area)
-print("The perimeter is" perim)
+print("The perimeter is",perim)
+# - minus + plus * time / devide
