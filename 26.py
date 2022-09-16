@@ -21,6 +21,7 @@ def main():
     move()
     place_beeper()
     move()
+    move()
     turn_left()
     turn_left()
     turn_left()
