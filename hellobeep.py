@@ -10,7 +10,6 @@ class ktools:
 
 
   def tr(self):
-        """turn around"""
         self.tl()
         self.tl()
         self.tl()
