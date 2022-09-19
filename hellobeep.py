@@ -38,6 +38,7 @@ class ktools:
 
   def h(self):
      self.tl()
+     self.put5()
      self.tr()
      self.m()
      self.m()
