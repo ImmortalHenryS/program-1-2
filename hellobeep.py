@@ -3,7 +3,6 @@ from stanfordkarel import *
 
 class ktools:
   def m(self):
-     """M shorthand for move"""
      move()
 
   def tl(self):
