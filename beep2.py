@@ -68,8 +68,34 @@ class ktools:
     self.m()
     self.m()
 
+  def l(self):
+    turn_left()
+    self.put5()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    turn_left()
+    self.put2()
+    self.m()
+    self.m()
 
-def main():
+  def e(self):
+    turn_left()
+    self.put5()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    turn_left()
+    self.put2()
+
+    
+   def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.h()
