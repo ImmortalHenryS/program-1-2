@@ -93,12 +93,20 @@ class ktools:
     self.m()
     turn_left()
     self.put2()
+    turn_left()
+    self.m()
+    self.tl()
+    self.put2()
+    self.tr()
+    self.m()
+    self.tr()
 
     
-   def main():
+    def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.h()
+    
     pass
 
 
