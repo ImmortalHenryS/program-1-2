@@ -120,17 +120,19 @@ def mmm(self,num):
 
   pass
       
-  
-
-def main():
+  def main():
     """ Karel code goes here! """
-    kt=ktools()
-    kt.tl()
-    kt.mm(5)
-    kt.ta()
-    kt.putm(5)
-    kt.tl()
-    kt.mm(2)
+  kt.tl()
+  kt.m()
+  kt.m()
+  mt.m()
+  kt.tr()
+  kt.m()
+  kt.tr()
+  kt.m()
+  kt.tl()
+  kt.m()
+  
     pass
 
 
