@@ -12,7 +12,7 @@ def tl(self):
 
   def tr(self):
     """turn around"""
-   self.tl()
+  self.tl()
   self.tl()
   self.tl()
 
@@ -22,14 +22,14 @@ def tl(self):
   self.tl()
   Self.tl()
 
-  def pick(self)
+def pick(self):
   pick_beeper
 
-  def put(self)
+def put(self):
   put_beeper
 
 
-def put2(self)
+def put2(self):
 self.put()
 self.m()
 self.put()
