@@ -79,25 +79,9 @@ def ric(self):
      return True
     self.tl()
     return False
-  
+   
 
 
-
-def mm(self,num):
-  for number in range(num):
-    self.m()
-
-
-def pickm(self,num):
-   for i in range(num-1):
-     self.pick()
-     self.m()
-     self.pick()
-def putm(self,num):
-  self.put()
-  self.m()
-
-  
 def rib(self):
   """right is blocked"""
   return not self.ric()
@@ -114,31 +98,45 @@ def mazemove(self):
         self.tr()
         self.m()
 
-def mmm(self,num):
-  for m in range (num-1):
-    self.mazemove()
+def SOB (self) -> bool:
+  return beepers_present()
 
+
+def jump(self):
+  """Jump for 510"""
+  while self.fic():
+    self.m()
+  self.tl()
+  while self.rib():
+    self.m()
+  self.tr()
+  self.m()
+  self.tr()
+  while self.fic():
+    self.m()
+  self.tl()
+
+
+  def find(self):
+    self.tl()
+  self.m
+  if not self.SOB():
+    self.tl()
+    self.m()
+    self.tl()
+    self.m()
+
+  for _ in range(2):
+    self.m()
+    self.tl()
+    self.m()
   pass
       
   
 
 def main():
     """ Karel code goes here! """
-    kt.tl()
-    kt.m()
-    kt.tr()
-    kt.mm(2)
-    kt.tr()
-    kt.mm(2)
-    kt.tl()
-    kt.mm(2)  
-    kt.tl()
-    kt.mm(2)  
+    kt=ktools()
     
-   
-
     pass
 
-
-if __name__ == "__main__":
-    run_karel_program()
