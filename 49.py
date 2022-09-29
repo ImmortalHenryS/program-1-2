@@ -119,7 +119,7 @@ def jump(self):
 
   def find(self):
     self.tl()
-    self.m
+  self.m
   if not self.SOB():
     self.tl()
     self.m()
@@ -137,14 +137,10 @@ def jump(self):
 def main():
     """ Karel code goes here! """
     kt=ktools()
+    while kt.fic
+     kt.mazemove()
     while kt.fib
-     kt.tl()
-    while kt.SOB
-     kt.m()
-    while kt.NSOB
-     kt.put()
-+
-
+     kt.mazemove()
     pass
 
 
