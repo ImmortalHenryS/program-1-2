@@ -114,7 +114,7 @@ def jump(self):
   self.tr()
   while self.fic():
     self.m()
-    self.tl()
+  self.tl()
 
 
   def find(self):
@@ -137,12 +137,10 @@ def jump(self):
 def main():
     """ Karel code goes here! """
     kt=ktools()
-    while kt.NSOB
-    kt.find
-    while kt.SOB
-    k.pick
-
-    
+    while kt.SOB():
+     kt.pick()
+     kt.find()
+   
     pass
 
 
